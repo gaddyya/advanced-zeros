@@ -1,13 +1,13 @@
 module.exports = function getZerosCount(number, base) {
 
-    let primeValue = [];
-    let countOfPrime = [];
-    let localBase = base;
-    let localNumber = number;
-    let maxPrime = 0;
-    let countOfMaxPrime = 0;
-    let sumZero = 0;
-    let memoize = 0;
+    var primeValue = [],
+        countOfPrime = [],
+        localBase = base,
+        localNumber = number,
+        maxPrime = 0,
+        countOfMaxPrime = 0,
+        sumZero = 0,
+        memoize = 0;
 
     // search all prime value and their count
     for ( let i = 2; i <= localBase; i++ ) {
